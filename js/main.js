@@ -3,8 +3,6 @@
 // jQuery shortcut for ready function
 // $ === jQuery
 $(function(){
-  console.log("Racer game is up and running");
-
   // player object for each player/computer
   function Player(node){
     // JQUERY NODE
@@ -105,7 +103,6 @@ $(function(){
        * setInterval(<function>,<milliseconds>)
        * 1000 === one second
       */
-      console.log("animation has now ended");
 
       // $instructions.removeClass("hide").addClass("fade-in");
       let countDown = 3;
