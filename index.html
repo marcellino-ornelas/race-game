@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Week 2 Day 3 - Homework</title>
+  <link href="https://fonts.googleapis.com/css?family=Lora|nunito" rel="stylesheet">
+  <link rel="stylesheet" href="libs/font-awesome/css/font-awesome.css">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+  <div class="fx cols backstretch-content">
+    <header class="space">
+      <nav class="nav-bar fx">
+        <div class="nav-header">
+          <!-- logo or header -->
+          <a href="index.html"> Racing Game</a>
+        </div>
+
+        <div class="nav-mobile only-mobile">
+          <!-- mobile bars -->
+          <i class="fa fa-bars"></i>
+        </div>
+
+        <div class="nav-menu only-desktop">
+          <!-- links -->
+          <a class="nav-link" href=""> Scores </a>
+          <a class="nav-link" href=""> About </a>
+        </div>
+      </nav>
+    </header>
+
+    <main class="fx-fill">
+      <div id="instructions" class="hide space">
+        use left arrow key to go!
+      </div>
+      <section id="intro" class="vertical-align fade-in">
+        <div>
+          <h1> RACING GAME </h1>
+          <h2> CAN YOU WIN? </h2>
+          <div>
+            <div id="start" class="arrow">
+              <div class="arrow-content"> Start</div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="game" class="hide fx cols">
+        <div class="track"> <img data-user="computer" class="car" src="./images/car1.png" alt="player1"> </div>
+        <div class="track"> <img data-user="player" class="car" src="./images/car2.png" alt="computer"> </div>
+        <div id="countDown" class="fx vertical-align"></div>
+      </section>
+    </main>
+  </div>
+
+  <div class="backstretch-img"></div>
+  <!-- scripts -->
+  <script src="libs/jquery-3.3.1/jquery.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
